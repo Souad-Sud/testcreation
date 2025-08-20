@@ -1,6 +1,6 @@
 import { fireEvent, render, screen } from "@testing-library/react";
+import MovieDetails from ".";
 import { movies } from "@/data/movies";
-import MovieDetails from "@/components/MovieDetails";
 
 describe("MovieDetails component", () => {
   const movie = movies[0];

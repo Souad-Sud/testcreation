@@ -1,5 +1,5 @@
 import { fireEvent, render, screen } from "@testing-library/react";
-import MoviePage from "../components/MoviePage";
+import MoviePage from ".";
 import { movies } from "@/data/movies";
 
 // mock children
